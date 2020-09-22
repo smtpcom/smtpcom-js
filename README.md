@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/smtpcom/smtpcom-js/branch/master/graph/badge.svg?token=G0JCKAWYOZ)](https://codecov.io/gh/smtpcom/smtpcom-js)
+![Node.js CI](https://github.com/smtpcom/smtpcom-js/workflows/Node.js%20CI/badge.svg)
 # smtp_public_api_overview
 
 SmtpPublicApiOverview - JavaScript client for smtp_public_api_overview
