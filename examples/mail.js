@@ -1,4 +1,4 @@
-var _smtpcom = _interopRequireDefault(require("smtpcom"));
+var _smtpcom = _interopRequireDefault(require("@smtpcom/smtpcom"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
