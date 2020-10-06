@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.UpdateAccountResponseData();
+    instance = new SmtpComApi.UpdateAccountResponseData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('UpdateAccountResponseData', function() {
     it('should create an instance of UpdateAccountResponseData', function() {
       // uncomment below and update the code to test UpdateAccountResponseData
-      //var instane = new SmtpPublicApiOverview.UpdateAccountResponseData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.UpdateAccountResponseData);
+      //var instane = new SmtpComApi.UpdateAccountResponseData();
+      //expect(instance).to.be.a(SmtpComApi.UpdateAccountResponseData);
     });
 
     it('should have the property account (base name: "account")', function() {
       // uncomment below and update the code to test the property account
-      //var instane = new SmtpPublicApiOverview.UpdateAccountResponseData();
+      //var instane = new SmtpComApi.UpdateAccountResponseData();
       //expect(instance).to.be();
     });
 

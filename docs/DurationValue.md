@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.DurationValue
+# SmtpComApi.DurationValue
 
 ## Enum
 

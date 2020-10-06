@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
+    instance = new SmtpComApi.V4MessagesBodyAttachments();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,43 +50,43 @@
   describe('V4MessagesBodyAttachments', function() {
     it('should create an instance of V4MessagesBodyAttachments', function() {
       // uncomment below and update the code to test V4MessagesBodyAttachments
-      //var instane = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.V4MessagesBodyAttachments);
+      //var instane = new SmtpComApi.V4MessagesBodyAttachments();
+      //expect(instance).to.be.a(SmtpComApi.V4MessagesBodyAttachments);
     });
 
     it('should have the property version (base name: "version")', function() {
       // uncomment below and update the code to test the property version
-      //var instane = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
+      //var instane = new SmtpComApi.V4MessagesBodyAttachments();
       //expect(instance).to.be();
     });
 
     it('should have the property type (base name: "type")', function() {
       // uncomment below and update the code to test the property type
-      //var instane = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
+      //var instane = new SmtpComApi.V4MessagesBodyAttachments();
       //expect(instance).to.be();
     });
 
     it('should have the property disposition (base name: "disposition")', function() {
       // uncomment below and update the code to test the property disposition
-      //var instane = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
+      //var instane = new SmtpComApi.V4MessagesBodyAttachments();
       //expect(instance).to.be();
     });
 
     it('should have the property filename (base name: "filename")', function() {
       // uncomment below and update the code to test the property filename
-      //var instane = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
+      //var instane = new SmtpComApi.V4MessagesBodyAttachments();
       //expect(instance).to.be();
     });
 
     it('should have the property cid (base name: "cid")', function() {
       // uncomment below and update the code to test the property cid
-      //var instane = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
+      //var instane = new SmtpComApi.V4MessagesBodyAttachments();
       //expect(instance).to.be();
     });
 
     it('should have the property content (base name: "content")', function() {
       // uncomment below and update the code to test the property content
-      //var instane = new SmtpPublicApiOverview.V4MessagesBodyAttachments();
+      //var instane = new SmtpComApi.V4MessagesBodyAttachments();
       //expect(instance).to.be();
     });
 

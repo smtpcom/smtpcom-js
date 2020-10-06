@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.V4MessagesMimeRecipients();
+    instance = new SmtpComApi.V4MessagesMimeRecipients();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('V4MessagesMimeRecipients', function() {
     it('should create an instance of V4MessagesMimeRecipients', function() {
       // uncomment below and update the code to test V4MessagesMimeRecipients
-      //var instane = new SmtpPublicApiOverview.V4MessagesMimeRecipients();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.V4MessagesMimeRecipients);
+      //var instane = new SmtpComApi.V4MessagesMimeRecipients();
+      //expect(instance).to.be.a(SmtpComApi.V4MessagesMimeRecipients);
     });
 
     it('should have the property to (base name: "to")', function() {
       // uncomment below and update the code to test the property to
-      //var instane = new SmtpPublicApiOverview.V4MessagesMimeRecipients();
+      //var instane = new SmtpComApi.V4MessagesMimeRecipients();
       //expect(instance).to.be();
     });
 
     it('should have the property cc (base name: "cc")', function() {
       // uncomment below and update the code to test the property cc
-      //var instane = new SmtpPublicApiOverview.V4MessagesMimeRecipients();
+      //var instane = new SmtpComApi.V4MessagesMimeRecipients();
       //expect(instance).to.be();
     });
 
     it('should have the property bcc (base name: "bcc")', function() {
       // uncomment below and update the code to test the property bcc
-      //var instane = new SmtpPublicApiOverview.V4MessagesMimeRecipients();
+      //var instane = new SmtpComApi.V4MessagesMimeRecipients();
       //expect(instance).to.be();
     });
 
     it('should have the property bulkList (base name: "bulk_list")', function() {
       // uncomment below and update the code to test the property bulkList
-      //var instane = new SmtpPublicApiOverview.V4MessagesMimeRecipients();
+      //var instane = new SmtpComApi.V4MessagesMimeRecipients();
       //expect(instance).to.be();
     });
 

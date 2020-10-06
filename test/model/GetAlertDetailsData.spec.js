@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.GetAlertDetailsData();
+    instance = new SmtpComApi.GetAlertDetailsData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('GetAlertDetailsData', function() {
     it('should create an instance of GetAlertDetailsData', function() {
       // uncomment below and update the code to test GetAlertDetailsData
-      //var instane = new SmtpPublicApiOverview.GetAlertDetailsData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.GetAlertDetailsData);
+      //var instane = new SmtpComApi.GetAlertDetailsData();
+      //expect(instance).to.be.a(SmtpComApi.GetAlertDetailsData);
     });
 
     it('should have the property type (base name: "type")', function() {
       // uncomment below and update the code to test the property type
-      //var instane = new SmtpPublicApiOverview.GetAlertDetailsData();
+      //var instane = new SmtpComApi.GetAlertDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property threshold (base name: "threshold")', function() {
       // uncomment below and update the code to test the property threshold
-      //var instane = new SmtpPublicApiOverview.GetAlertDetailsData();
+      //var instane = new SmtpComApi.GetAlertDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property alertId (base name: "alert_id")', function() {
       // uncomment below and update the code to test the property alertId
-      //var instane = new SmtpPublicApiOverview.GetAlertDetailsData();
+      //var instane = new SmtpComApi.GetAlertDetailsData();
       //expect(instance).to.be();
     });
 

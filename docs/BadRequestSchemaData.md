@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.BadRequestSchemaData
+# SmtpComApi.BadRequestSchemaData
 
 ## Properties
 

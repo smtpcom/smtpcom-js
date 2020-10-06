@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.CallbacksApi
+# SmtpComApi.CallbacksApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -23,8 +23,8 @@ Delete All Callbacks
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -40,7 +40,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.CallbacksApi();
+let apiInstance = new SmtpComApi.CallbacksApi();
 apiInstance.v4CallbacksDelete((error, data, response) => {
   if (error) {
     console.error(error);
@@ -77,8 +77,8 @@ Delete Callback
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -94,7 +94,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.CallbacksApi();
+let apiInstance = new SmtpComApi.CallbacksApi();
 let event = "event_example"; // String | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 let channel = "channel_example"; // String | Name of the channel for which the callback has been created
 apiInstance.v4CallbacksEventDelete(event, channel, (error, data, response) => {
@@ -137,8 +137,8 @@ Get Callback Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -154,7 +154,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.CallbacksApi();
+let apiInstance = new SmtpComApi.CallbacksApi();
 let event = "event_example"; // String | Event for which the callback has been created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 let channel = "channel_example"; // String | Name of the channel for which the callback has been created
 apiInstance.v4CallbacksEventGet(event, channel, (error, data, response) => {
@@ -197,8 +197,8 @@ Update Callback Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -214,7 +214,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.CallbacksApi();
+let apiInstance = new SmtpComApi.CallbacksApi();
 let event = "event_example"; // String | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 let channel = "channel_example"; // String | Name of the channel for which the callback has been created
 let opts = {
@@ -265,8 +265,8 @@ Create Callback
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -282,7 +282,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.CallbacksApi();
+let apiInstance = new SmtpComApi.CallbacksApi();
 let event = "event_example"; // String | Event for which the callback should be created. Valid types are:  * delivered -  message delivered * failed - message bounced * complained - complaint received * bounceback - bounce back notification received * received - message received by our system * queued - message in queue (transient) * hard_bounced - hard bounce received * opened - message opened * clicked - URL in message clicked * unsubscribed - unsubscribe received 
 let channel = "channel_example"; // String | Name of the channel for which the callback has been created.
 let medium = "medium_example"; // String | Medium to send callback data. Valid values are one of:   * http   * sqs 
@@ -333,8 +333,8 @@ List All Callbacks
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -350,7 +350,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.CallbacksApi();
+let apiInstance = new SmtpComApi.CallbacksApi();
 apiInstance.v4CallbacksGet((error, data, response) => {
   if (error) {
     console.error(error);
@@ -389,8 +389,8 @@ Review all callback logs for a specific channel. It may help debug issues relate
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -406,7 +406,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.CallbacksApi();
+let apiInstance = new SmtpComApi.CallbacksApi();
 let channel = "channel_example"; // String | Name of the channel for which the given callback has been created
 let opts = {
   'limit': 56 // Number | Number of items to return in the response. Default is 20

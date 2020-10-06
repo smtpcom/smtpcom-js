@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.StatsResponseDataItems();
+    instance = new SmtpComApi.StatsResponseDataItems();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,55 +50,55 @@
   describe('StatsResponseDataItems', function() {
     it('should create an instance of StatsResponseDataItems', function() {
       // uncomment below and update the code to test StatsResponseDataItems
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.StatsResponseDataItems);
+      //var instane = new SmtpComApi.StatsResponseDataItems();
+      //expect(instance).to.be.a(SmtpComApi.StatsResponseDataItems);
     });
 
     it('should have the property accepted (base name: "accepted")', function() {
       // uncomment below and update the code to test the property accepted
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property complained (base name: "complained")', function() {
       // uncomment below and update the code to test the property complained
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property delivered (base name: "delivered")', function() {
       // uncomment below and update the code to test the property delivered
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property clicked (base name: "clicked")', function() {
       // uncomment below and update the code to test the property clicked
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property opened (base name: "opened")', function() {
       // uncomment below and update the code to test the property opened
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property failed (base name: "failed")', function() {
       // uncomment below and update the code to test the property failed
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property unsubscribed (base name: "unsubscribed")', function() {
       // uncomment below and update the code to test the property unsubscribed
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property queued (base name: "queued")', function() {
       // uncomment below and update the code to test the property queued
-      //var instane = new SmtpPublicApiOverview.StatsResponseDataItems();
+      //var instane = new SmtpComApi.StatsResponseDataItems();
       //expect(instance).to.be();
     });
 

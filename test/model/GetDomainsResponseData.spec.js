@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.GetDomainsResponseData();
+    instance = new SmtpComApi.GetDomainsResponseData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('GetDomainsResponseData', function() {
     it('should create an instance of GetDomainsResponseData', function() {
       // uncomment below and update the code to test GetDomainsResponseData
-      //var instane = new SmtpPublicApiOverview.GetDomainsResponseData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.GetDomainsResponseData);
+      //var instane = new SmtpComApi.GetDomainsResponseData();
+      //expect(instance).to.be.a(SmtpComApi.GetDomainsResponseData);
     });
 
     it('should have the property items (base name: "items")', function() {
       // uncomment below and update the code to test the property items
-      //var instane = new SmtpPublicApiOverview.GetDomainsResponseData();
+      //var instane = new SmtpComApi.GetDomainsResponseData();
       //expect(instance).to.be();
     });
 

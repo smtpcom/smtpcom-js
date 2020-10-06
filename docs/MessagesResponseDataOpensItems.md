@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.MessagesResponseDataOpensItems
+# SmtpComApi.MessagesResponseDataOpensItems
 
 ## Properties
 

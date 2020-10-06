@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.PostMessageResponseData
+# SmtpComApi.PostMessageResponseData
 
 ## Properties
 

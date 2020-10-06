@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.CreateDkimKey
+# SmtpComApi.CreateDkimKey
 
 ## Properties
 

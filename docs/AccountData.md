@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.AccountData
+# SmtpComApi.AccountData
 
 ## Properties
 

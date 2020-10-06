@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.CreateDkimKeyData();
+    instance = new SmtpComApi.CreateDkimKeyData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('CreateDkimKeyData', function() {
     it('should create an instance of CreateDkimKeyData', function() {
       // uncomment below and update the code to test CreateDkimKeyData
-      //var instane = new SmtpPublicApiOverview.CreateDkimKeyData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.CreateDkimKeyData);
+      //var instane = new SmtpComApi.CreateDkimKeyData();
+      //expect(instance).to.be.a(SmtpComApi.CreateDkimKeyData);
     });
 
     it('should have the property dkimKey (base name: "dkim_key")', function() {
       // uncomment below and update the code to test the property dkimKey
-      //var instane = new SmtpPublicApiOverview.CreateDkimKeyData();
+      //var instane = new SmtpComApi.CreateDkimKeyData();
       //expect(instance).to.be();
     });
 

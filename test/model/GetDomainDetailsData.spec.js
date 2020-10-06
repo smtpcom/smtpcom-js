@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.GetDomainDetailsData();
+    instance = new SmtpComApi.GetDomainDetailsData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('GetDomainDetailsData', function() {
     it('should create an instance of GetDomainDetailsData', function() {
       // uncomment below and update the code to test GetDomainDetailsData
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.GetDomainDetailsData);
+      //var instane = new SmtpComApi.GetDomainDetailsData();
+      //expect(instance).to.be.a(SmtpComApi.GetDomainDetailsData);
     });
 
     it('should have the property domainName (base name: "domain_name")', function() {
       // uncomment below and update the code to test the property domainName
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsData();
+      //var instane = new SmtpComApi.GetDomainDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property selector (base name: "selector")', function() {
       // uncomment below and update the code to test the property selector
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsData();
+      //var instane = new SmtpComApi.GetDomainDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property privateKey (base name: "private_key")', function() {
       // uncomment below and update the code to test the property privateKey
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsData();
+      //var instane = new SmtpComApi.GetDomainDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property isValid (base name: "is_valid")', function() {
       // uncomment below and update the code to test the property isValid
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsData();
+      //var instane = new SmtpComApi.GetDomainDetailsData();
       //expect(instance).to.be();
     });
 

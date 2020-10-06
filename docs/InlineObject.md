@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.InlineObject
+# SmtpComApi.InlineObject
 
 ## Properties
 

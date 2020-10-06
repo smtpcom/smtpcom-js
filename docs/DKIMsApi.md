@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.DKIMsApi
+# SmtpComApi.DKIMsApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -27,8 +27,8 @@ Deletes a domain that was previously registered by the current account.
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -44,7 +44,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name of interest
 apiInstance.v4DomainsDomainNameDelete(domainName, (error, data, response) => {
   if (error) {
@@ -85,8 +85,8 @@ Delete DKIM for Domain
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -102,7 +102,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name of interest
 apiInstance.v4DomainsDomainNameDkimKeysDelete(domainName, (error, data, response) => {
   if (error) {
@@ -143,8 +143,8 @@ Get DKIM for Domain
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -160,7 +160,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name of interest
 apiInstance.v4DomainsDomainNameDkimKeysGet(domainName, (error, data, response) => {
   if (error) {
@@ -201,8 +201,8 @@ Update DKIM Key Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -218,7 +218,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name of interest
 let selector = "selector_example"; // String | Name of DKIM selector for this domain
 let privateKey = "privateKey_example"; // String | Private key of the DKIM record
@@ -263,8 +263,8 @@ Add DKIM for Domain
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -280,7 +280,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name of interest
 let selector = "selector_example"; // String | Name of DKIM selector for this domain
 let privateKey = "privateKey_example"; // String | Private key of the DKIM record
@@ -325,8 +325,8 @@ Get Domain Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -342,7 +342,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name of interest
 apiInstance.v4DomainsDomainNameGet(domainName, (error, data, response) => {
   if (error) {
@@ -383,8 +383,8 @@ Update Domain Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -400,7 +400,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name of interest
 let enabled = true; // Boolean | Whether the domain is enabled
 apiInstance.v4DomainsDomainNamePatch(domainName, enabled, (error, data, response) => {
@@ -445,8 +445,8 @@ Returns all domains registered by this account
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -462,7 +462,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 apiInstance.v4DomainsGet((error, data, response) => {
   if (error) {
     console.error(error);
@@ -501,8 +501,8 @@ Add a new domain to the list of account&#39;s registered domains
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -518,7 +518,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.DKIMsApi();
+let apiInstance = new SmtpComApi.DKIMsApi();
 let domainName = "domainName_example"; // String | Domain name to add
 apiInstance.v4DomainsPost(domainName, (error, data, response) => {
   if (error) {

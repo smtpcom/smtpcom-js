@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.MessagesResponseDataOpensItems();
+    instance = new SmtpComApi.MessagesResponseDataOpensItems();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('MessagesResponseDataOpensItems', function() {
     it('should create an instance of MessagesResponseDataOpensItems', function() {
       // uncomment below and update the code to test MessagesResponseDataOpensItems
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataOpensItems();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.MessagesResponseDataOpensItems);
+      //var instane = new SmtpComApi.MessagesResponseDataOpensItems();
+      //expect(instance).to.be.a(SmtpComApi.MessagesResponseDataOpensItems);
     });
 
     it('should have the property openTime (base name: "open_time")', function() {
       // uncomment below and update the code to test the property openTime
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataOpensItems();
+      //var instane = new SmtpComApi.MessagesResponseDataOpensItems();
       //expect(instance).to.be();
     });
 
     it('should have the property remoteIp (base name: "remote_ip")', function() {
       // uncomment below and update the code to test the property remoteIp
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataOpensItems();
+      //var instane = new SmtpComApi.MessagesResponseDataOpensItems();
       //expect(instance).to.be();
     });
 
     it('should have the property ua (base name: "ua")', function() {
       // uncomment below and update the code to test the property ua
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataOpensItems();
+      //var instane = new SmtpComApi.MessagesResponseDataOpensItems();
       //expect(instance).to.be();
     });
 

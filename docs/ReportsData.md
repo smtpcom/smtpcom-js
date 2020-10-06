@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.ReportsData
+# SmtpComApi.ReportsData
 
 ## Properties
 

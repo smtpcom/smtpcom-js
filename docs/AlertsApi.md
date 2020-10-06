@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.AlertsApi
+# SmtpComApi.AlertsApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -21,8 +21,8 @@ Delete Alert
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -38,7 +38,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.AlertsApi();
+let apiInstance = new SmtpComApi.AlertsApi();
 let alertId = "alertId_example"; // String | Id of a given alert
 apiInstance.v4AlertsAlertIdDelete(alertId, (error, data, response) => {
   if (error) {
@@ -79,8 +79,8 @@ Get Alert Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -96,7 +96,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.AlertsApi();
+let apiInstance = new SmtpComApi.AlertsApi();
 let alertId = "alertId_example"; // String | Id of a given alert
 apiInstance.v4AlertsAlertIdGet(alertId, (error, data, response) => {
   if (error) {
@@ -137,8 +137,8 @@ Update Alert Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -154,7 +154,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.AlertsApi();
+let apiInstance = new SmtpComApi.AlertsApi();
 let alertId = "alertId_example"; // String | Id of a given alert
 let opts = {
   'threshold': 3.4 // Number | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1
@@ -199,8 +199,8 @@ List All Allerts
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -216,7 +216,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.AlertsApi();
+let apiInstance = new SmtpComApi.AlertsApi();
 apiInstance.v4AlertsGet((error, data, response) => {
   if (error) {
     console.error(error);
@@ -253,8 +253,8 @@ Create New Alert
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -270,7 +270,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.AlertsApi();
+let apiInstance = new SmtpComApi.AlertsApi();
 let type = "type_example"; // String | An alert’s type. Currently only “monthly_quota” is supported
 let opts = {
   'threshold': 3.4 // Number | A number which represents a percentage of an account’s monthly quota. Must be decimal between 0 and 1

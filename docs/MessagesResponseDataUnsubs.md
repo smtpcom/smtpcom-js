@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.MessagesResponseDataUnsubs
+# SmtpComApi.MessagesResponseDataUnsubs
 
 ## Properties
 

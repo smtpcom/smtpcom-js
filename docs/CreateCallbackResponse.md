@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.CreateCallbackResponse
+# SmtpComApi.CreateCallbackResponse
 
 ## Properties
 

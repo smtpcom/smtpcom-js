@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,9 +20,9 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
@@ -49,8 +49,8 @@
   describe('DurationValue', function() {
     it('should create an instance of DurationValue', function() {
       // uncomment below and update the code to test DurationValue
-      //var instane = new SmtpPublicApiOverview.DurationValue();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.DurationValue);
+      //var instane = new SmtpComApi.DurationValue();
+      //expect(instance).to.be.a(SmtpComApi.DurationValue);
     });
 
   });

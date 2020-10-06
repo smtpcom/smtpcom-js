@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.GetDomainsResponseDataItems();
+    instance = new SmtpComApi.GetDomainsResponseDataItems();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('GetDomainsResponseDataItems', function() {
     it('should create an instance of GetDomainsResponseDataItems', function() {
       // uncomment below and update the code to test GetDomainsResponseDataItems
-      //var instane = new SmtpPublicApiOverview.GetDomainsResponseDataItems();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.GetDomainsResponseDataItems);
+      //var instane = new SmtpComApi.GetDomainsResponseDataItems();
+      //expect(instance).to.be.a(SmtpComApi.GetDomainsResponseDataItems);
     });
 
     it('should have the property domainName (base name: "domain_name")', function() {
       // uncomment below and update the code to test the property domainName
-      //var instane = new SmtpPublicApiOverview.GetDomainsResponseDataItems();
+      //var instane = new SmtpComApi.GetDomainsResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property enabled (base name: "enabled")', function() {
       // uncomment below and update the code to test the property enabled
-      //var instane = new SmtpPublicApiOverview.GetDomainsResponseDataItems();
+      //var instane = new SmtpComApi.GetDomainsResponseDataItems();
       //expect(instance).to.be();
     });
 

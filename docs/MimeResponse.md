@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.MimeResponse
+# SmtpComApi.MimeResponse
 
 ## Properties
 

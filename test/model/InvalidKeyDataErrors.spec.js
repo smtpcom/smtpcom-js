@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.InvalidKeyDataErrors();
+    instance = new SmtpComApi.InvalidKeyDataErrors();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('InvalidKeyDataErrors', function() {
     it('should create an instance of InvalidKeyDataErrors', function() {
       // uncomment below and update the code to test InvalidKeyDataErrors
-      //var instane = new SmtpPublicApiOverview.InvalidKeyDataErrors();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.InvalidKeyDataErrors);
+      //var instane = new SmtpComApi.InvalidKeyDataErrors();
+      //expect(instance).to.be.a(SmtpComApi.InvalidKeyDataErrors);
     });
 
     it('should have the property errorField (base name: "error_field")', function() {
       // uncomment below and update the code to test the property errorField
-      //var instane = new SmtpPublicApiOverview.InvalidKeyDataErrors();
+      //var instane = new SmtpComApi.InvalidKeyDataErrors();
       //expect(instance).to.be();
     });
 

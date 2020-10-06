@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.SliceValue
+# SmtpComApi.SliceValue
 
 ## Enum
 

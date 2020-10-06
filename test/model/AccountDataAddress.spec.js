@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.AccountDataAddress();
+    instance = new SmtpComApi.AccountDataAddress();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('AccountDataAddress', function() {
     it('should create an instance of AccountDataAddress', function() {
       // uncomment below and update the code to test AccountDataAddress
-      //var instane = new SmtpPublicApiOverview.AccountDataAddress();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.AccountDataAddress);
+      //var instane = new SmtpComApi.AccountDataAddress();
+      //expect(instance).to.be.a(SmtpComApi.AccountDataAddress);
     });
 
     it('should have the property street (base name: "street")', function() {
       // uncomment below and update the code to test the property street
-      //var instane = new SmtpPublicApiOverview.AccountDataAddress();
+      //var instane = new SmtpComApi.AccountDataAddress();
       //expect(instance).to.be();
     });
 
     it('should have the property city (base name: "city")', function() {
       // uncomment below and update the code to test the property city
-      //var instane = new SmtpPublicApiOverview.AccountDataAddress();
+      //var instane = new SmtpComApi.AccountDataAddress();
       //expect(instance).to.be();
     });
 
     it('should have the property state (base name: "state")', function() {
       // uncomment below and update the code to test the property state
-      //var instane = new SmtpPublicApiOverview.AccountDataAddress();
+      //var instane = new SmtpComApi.AccountDataAddress();
       //expect(instance).to.be();
     });
 
     it('should have the property country (base name: "country")', function() {
       // uncomment below and update the code to test the property country
-      //var instane = new SmtpPublicApiOverview.AccountDataAddress();
+      //var instane = new SmtpComApi.AccountDataAddress();
       //expect(instance).to.be();
     });
 

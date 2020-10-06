@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.AccountData();
+    instance = new SmtpComApi.AccountData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,67 +50,67 @@
   describe('AccountData', function() {
     it('should create an instance of AccountData', function() {
       // uncomment below and update the code to test AccountData
-      //var instane = new SmtpPublicApiOverview.AccountData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.AccountData);
+      //var instane = new SmtpComApi.AccountData();
+      //expect(instance).to.be.a(SmtpComApi.AccountData);
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property firstName (base name: "first_name")', function() {
       // uncomment below and update the code to test the property firstName
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property lastName (base name: "last_name")', function() {
       // uncomment below and update the code to test the property lastName
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property phone (base name: "phone")', function() {
       // uncomment below and update the code to test the property phone
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property website (base name: "website")', function() {
       // uncomment below and update the code to test the property website
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property email (base name: "email")', function() {
       // uncomment below and update the code to test the property email
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property companyName (base name: "company_name")', function() {
       // uncomment below and update the code to test the property companyName
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property address (base name: "address")', function() {
       // uncomment below and update the code to test the property address
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property usage (base name: "usage")', function() {
       // uncomment below and update the code to test the property usage
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 
     it('should have the property dateCreated (base name: "date created")', function() {
       // uncomment below and update the code to test the property dateCreated
-      //var instane = new SmtpPublicApiOverview.AccountData();
+      //var instane = new SmtpComApi.AccountData();
       //expect(instance).to.be();
     });
 

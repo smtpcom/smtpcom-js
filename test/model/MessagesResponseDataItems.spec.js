@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.MessagesResponseDataItems();
+    instance = new SmtpComApi.MessagesResponseDataItems();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,67 +50,67 @@
   describe('MessagesResponseDataItems', function() {
     it('should create an instance of MessagesResponseDataItems', function() {
       // uncomment below and update the code to test MessagesResponseDataItems
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.MessagesResponseDataItems);
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
+      //expect(instance).to.be.a(SmtpComApi.MessagesResponseDataItems);
     });
 
     it('should have the property msgId (base name: "msg_id")', function() {
       // uncomment below and update the code to test the property msgId
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property msgTime (base name: "msg_time")', function() {
       // uncomment below and update the code to test the property msgTime
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property channel (base name: "channel")', function() {
       // uncomment below and update the code to test the property channel
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property smtpVars (base name: "smtp_vars")', function() {
       // uncomment below and update the code to test the property smtpVars
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property msgData (base name: "msg_data")', function() {
       // uncomment below and update the code to test the property msgData
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property details (base name: "details")', function() {
       // uncomment below and update the code to test the property details
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property opens (base name: "opens")', function() {
       // uncomment below and update the code to test the property opens
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property clicks (base name: "clicks")', function() {
       // uncomment below and update the code to test the property clicks
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property abuse (base name: "abuse")', function() {
       // uncomment below and update the code to test the property abuse
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property unsubs (base name: "unsubs")', function() {
       // uncomment below and update the code to test the property unsubs
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataItems();
+      //var instane = new SmtpComApi.MessagesResponseDataItems();
       //expect(instance).to.be();
     });
 

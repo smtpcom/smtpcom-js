@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.Report();
+    instance = new SmtpComApi.Report();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,67 +50,67 @@
   describe('Report', function() {
     it('should create an instance of Report', function() {
       // uncomment below and update the code to test Report
-      //var instane = new SmtpPublicApiOverview.Report();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.Report);
+      //var instane = new SmtpComApi.Report();
+      //expect(instance).to.be.a(SmtpComApi.Report);
     });
 
     it('should have the property frequency (base name: "frequency")', function() {
       // uncomment below and update the code to test the property frequency
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property reportId (base name: "report_id")', function() {
       // uncomment below and update the code to test the property reportId
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property events (base name: "events")', function() {
       // uncomment below and update the code to test the property events
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property channel (base name: "channel")', function() {
       // uncomment below and update the code to test the property channel
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property reportTime (base name: "report_time")', function() {
       // uncomment below and update the code to test the property reportTime
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property url (base name: "url")', function() {
       // uncomment below and update the code to test the property url
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property timeReq (base name: "time_req")', function() {
       // uncomment below and update the code to test the property timeReq
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 
     it('should have the property progress (base name: "progress")', function() {
       // uncomment below and update the code to test the property progress
-      //var instane = new SmtpPublicApiOverview.Report();
+      //var instane = new SmtpComApi.Report();
       //expect(instance).to.be();
     });
 

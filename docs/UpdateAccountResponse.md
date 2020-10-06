@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.UpdateAccountResponse
+# SmtpComApi.UpdateAccountResponse
 
 ## Properties
 

@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.V4MessagesRecipientsTo();
+    instance = new SmtpComApi.V4MessagesRecipientsTo();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('V4MessagesRecipientsTo', function() {
     it('should create an instance of V4MessagesRecipientsTo', function() {
       // uncomment below and update the code to test V4MessagesRecipientsTo
-      //var instane = new SmtpPublicApiOverview.V4MessagesRecipientsTo();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.V4MessagesRecipientsTo);
+      //var instane = new SmtpComApi.V4MessagesRecipientsTo();
+      //expect(instance).to.be.a(SmtpComApi.V4MessagesRecipientsTo);
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new SmtpPublicApiOverview.V4MessagesRecipientsTo();
+      //var instane = new SmtpComApi.V4MessagesRecipientsTo();
       //expect(instance).to.be();
     });
 
     it('should have the property address (base name: "address")', function() {
       // uncomment below and update the code to test the property address
-      //var instane = new SmtpPublicApiOverview.V4MessagesRecipientsTo();
+      //var instane = new SmtpComApi.V4MessagesRecipientsTo();
       //expect(instance).to.be();
     });
 

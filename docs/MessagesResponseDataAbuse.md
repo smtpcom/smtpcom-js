@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.MessagesResponseDataAbuse
+# SmtpComApi.MessagesResponseDataAbuse
 
 ## Properties
 

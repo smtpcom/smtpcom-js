@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -106,14 +106,14 @@ import StatisticsApi from './api/StatisticsApi';
 
 
 /**
-* SMTP_com_Public_API_v4.<br>
+* SMTP.com API V4.<br>
 * The <code>index</code> module provides access to constructors for all the classes which comprise the public API.
 * <p>
 * An AMD (recommended!) or CommonJS application will generally do something equivalent to the following:
 * <pre>
-* var SmtpPublicApiOverview = require('index'); // See note below*.
-* var xxxSvc = new SmtpPublicApiOverview.XxxApi(); // Allocate the API class we're going to use.
-* var yyyModel = new SmtpPublicApiOverview.Yyy(); // Construct a model instance.
+* var SmtpComApi = require('index'); // See note below*.
+* var xxxSvc = new SmtpComApi.XxxApi(); // Allocate the API class we're going to use.
+* var yyyModel = new SmtpComApi.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.
@@ -125,8 +125,8 @@ import StatisticsApi from './api/StatisticsApi';
 * <p>
 * A non-AMD browser application (discouraged) might do something like this:
 * <pre>
-* var xxxSvc = new SmtpPublicApiOverview.XxxApi(); // Allocate the API class we're going to use.
-* var yyy = new SmtpPublicApiOverview.Yyy(); // Construct a model instance.
+* var xxxSvc = new SmtpComApi.XxxApi(); // Allocate the API class we're going to use.
+* var yyy = new SmtpComApi.Yyy(); // Construct a model instance.
 * yyyModel.someProperty = 'someValue';
 * ...
 * var zzz = xxxSvc.doSomething(yyyModel); // Invoke the service.

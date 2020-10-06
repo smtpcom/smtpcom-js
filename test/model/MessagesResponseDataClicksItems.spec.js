@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.MessagesResponseDataClicksItems();
+    instance = new SmtpComApi.MessagesResponseDataClicksItems();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('MessagesResponseDataClicksItems', function() {
     it('should create an instance of MessagesResponseDataClicksItems', function() {
       // uncomment below and update the code to test MessagesResponseDataClicksItems
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataClicksItems();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.MessagesResponseDataClicksItems);
+      //var instane = new SmtpComApi.MessagesResponseDataClicksItems();
+      //expect(instance).to.be.a(SmtpComApi.MessagesResponseDataClicksItems);
     });
 
     it('should have the property clickTime (base name: "click_time")', function() {
       // uncomment below and update the code to test the property clickTime
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataClicksItems();
+      //var instane = new SmtpComApi.MessagesResponseDataClicksItems();
       //expect(instance).to.be();
     });
 
     it('should have the property remoteIp (base name: "remote_ip")', function() {
       // uncomment below and update the code to test the property remoteIp
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataClicksItems();
+      //var instane = new SmtpComApi.MessagesResponseDataClicksItems();
       //expect(instance).to.be();
     });
 
     it('should have the property ua (base name: "ua")', function() {
       // uncomment below and update the code to test the property ua
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataClicksItems();
+      //var instane = new SmtpComApi.MessagesResponseDataClicksItems();
       //expect(instance).to.be();
     });
 

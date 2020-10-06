@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.ChannelData();
+    instance = new SmtpComApi.ChannelData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,43 +50,43 @@
   describe('ChannelData', function() {
     it('should create an instance of ChannelData', function() {
       // uncomment below and update the code to test ChannelData
-      //var instane = new SmtpPublicApiOverview.ChannelData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.ChannelData);
+      //var instane = new SmtpComApi.ChannelData();
+      //expect(instance).to.be.a(SmtpComApi.ChannelData);
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new SmtpPublicApiOverview.ChannelData();
+      //var instane = new SmtpComApi.ChannelData();
       //expect(instance).to.be();
     });
 
     it('should have the property quota (base name: "quota")', function() {
       // uncomment below and update the code to test the property quota
-      //var instane = new SmtpPublicApiOverview.ChannelData();
+      //var instane = new SmtpComApi.ChannelData();
       //expect(instance).to.be();
     });
 
     it('should have the property label (base name: "label")', function() {
       // uncomment below and update the code to test the property label
-      //var instane = new SmtpPublicApiOverview.ChannelData();
+      //var instane = new SmtpComApi.ChannelData();
       //expect(instance).to.be();
     });
 
     it('should have the property usage (base name: "usage")', function() {
       // uncomment below and update the code to test the property usage
-      //var instane = new SmtpPublicApiOverview.ChannelData();
+      //var instane = new SmtpComApi.ChannelData();
       //expect(instance).to.be();
     });
 
     it('should have the property dateCreated (base name: "date_created")', function() {
       // uncomment below and update the code to test the property dateCreated
-      //var instane = new SmtpPublicApiOverview.ChannelData();
+      //var instane = new SmtpComApi.ChannelData();
       //expect(instance).to.be();
     });
 
     it('should have the property smtpUsername (base name: "smtp_username")', function() {
       // uncomment below and update the code to test the property smtpUsername
-      //var instane = new SmtpPublicApiOverview.ChannelData();
+      //var instane = new SmtpComApi.ChannelData();
       //expect(instance).to.be();
     });
 

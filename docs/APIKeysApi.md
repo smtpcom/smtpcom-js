@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.APIKeysApi
+# SmtpComApi.APIKeysApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -21,8 +21,8 @@ Get API Key Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -38,7 +38,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.APIKeysApi();
+let apiInstance = new SmtpComApi.APIKeysApi();
 let apiKey = "apiKey_example"; // String | API Key Identificator.
 apiInstance.getAPIKey(apiKey, (error, data, response) => {
   if (error) {
@@ -79,8 +79,8 @@ Delete an API Key
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -96,7 +96,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.APIKeysApi();
+let apiInstance = new SmtpComApi.APIKeysApi();
 let apiKey = "apiKey_example"; // String | API key value
 apiInstance.v4ApiKeysApiKeyDelete(apiKey, (error, data, response) => {
   if (error) {
@@ -137,8 +137,8 @@ Update API Key
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -154,7 +154,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.APIKeysApi();
+let apiInstance = new SmtpComApi.APIKeysApi();
 let apiKey = "apiKey_example"; // String | API key value
 let opts = {
   'name': "name_example", // String | Name for API key
@@ -201,8 +201,8 @@ List All API Keys
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -218,7 +218,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.APIKeysApi();
+let apiInstance = new SmtpComApi.APIKeysApi();
 apiInstance.v4ApiKeysGet((error, data, response) => {
   if (error) {
     console.error(error);
@@ -255,8 +255,8 @@ Create a New API Key
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -272,7 +272,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.APIKeysApi();
+let apiInstance = new SmtpComApi.APIKeysApi();
 let name = "name_example"; // String | Name for API key
 let opts = {
   'description': "description_example" // String | Description for API key

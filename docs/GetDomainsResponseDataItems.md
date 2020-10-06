@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.GetDomainsResponseDataItems
+# SmtpComApi.GetDomainsResponseDataItems
 
 ## Properties
 

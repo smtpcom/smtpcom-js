@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.V4MessagesBodyAttachments
+# SmtpComApi.V4MessagesBodyAttachments
 
 ## Properties
 

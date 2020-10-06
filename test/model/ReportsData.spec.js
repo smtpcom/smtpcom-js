@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.ReportsData();
+    instance = new SmtpComApi.ReportsData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('ReportsData', function() {
     it('should create an instance of ReportsData', function() {
       // uncomment below and update the code to test ReportsData
-      //var instane = new SmtpPublicApiOverview.ReportsData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.ReportsData);
+      //var instane = new SmtpComApi.ReportsData();
+      //expect(instance).to.be.a(SmtpComApi.ReportsData);
     });
 
     it('should have the property periodic (base name: "periodic")', function() {
       // uncomment below and update the code to test the property periodic
-      //var instane = new SmtpPublicApiOverview.ReportsData();
+      //var instane = new SmtpComApi.ReportsData();
       //expect(instance).to.be();
     });
 
     it('should have the property ondemand (base name: "ondemand")', function() {
       // uncomment below and update the code to test the property ondemand
-      //var instane = new SmtpPublicApiOverview.ReportsData();
+      //var instane = new SmtpComApi.ReportsData();
       //expect(instance).to.be();
     });
 

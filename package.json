@@ -1,7 +1,7 @@
 {
-  "name": "smtp_public_api_overview",
+  "name": "@smtpcom/smtpcom",
   "version": "4.0.0",
-  "description": "SMTP_com_Public_API_v4",
+  "description": "SMTP.com API V4 client",
   "license": "Apache 2.0",
   "main": "dist/index.js",
   "scripts": {

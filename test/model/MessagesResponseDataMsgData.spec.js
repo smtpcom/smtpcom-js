@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.MessagesResponseDataMsgData();
+    instance = new SmtpComApi.MessagesResponseDataMsgData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('MessagesResponseDataMsgData', function() {
     it('should create an instance of MessagesResponseDataMsgData', function() {
       // uncomment below and update the code to test MessagesResponseDataMsgData
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataMsgData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.MessagesResponseDataMsgData);
+      //var instane = new SmtpComApi.MessagesResponseDataMsgData();
+      //expect(instance).to.be.a(SmtpComApi.MessagesResponseDataMsgData);
     });
 
     it('should have the property rcptTo (base name: "rcpt_to")', function() {
       // uncomment below and update the code to test the property rcptTo
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataMsgData();
+      //var instane = new SmtpComApi.MessagesResponseDataMsgData();
       //expect(instance).to.be();
     });
 
     it('should have the property from (base name: "from")', function() {
       // uncomment below and update the code to test the property from
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataMsgData();
+      //var instane = new SmtpComApi.MessagesResponseDataMsgData();
       //expect(instance).to.be();
     });
 
     it('should have the property subject (base name: "subject")', function() {
       // uncomment below and update the code to test the property subject
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataMsgData();
+      //var instane = new SmtpComApi.MessagesResponseDataMsgData();
       //expect(instance).to.be();
     });
 

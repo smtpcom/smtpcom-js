@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.MessagesApi
+# SmtpComApi.MessagesApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -19,8 +19,8 @@ Get Detailed Messages Info
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -36,7 +36,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.MessagesApi();
+let apiInstance = new SmtpComApi.MessagesApi();
 let start = "start_example"; // String | The starting time. RFC 2822 or UNIX epoch format
 let limit = 56; // Number | Maximum number of items to return.
 let offset = 56; // Number | Number of items to skip before returning the results.
@@ -93,8 +93,8 @@ This method will send a prepared RFC compliant MIME message via a specified chan
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -110,8 +110,8 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.MessagesApi();
-let inlineObject1 = new SmtpPublicApiOverview.InlineObject1(); // InlineObject1 | 
+let apiInstance = new SmtpComApi.MessagesApi();
+let inlineObject1 = new SmtpComApi.InlineObject1(); // InlineObject1 | 
 apiInstance.v4MessagesMimePost(inlineObject1, (error, data, response) => {
   if (error) {
     console.error(error);
@@ -153,8 +153,8 @@ Send a message over HTTP/HTTPS protocol using a specified channel. The request c
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -170,9 +170,9 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.MessagesApi();
+let apiInstance = new SmtpComApi.MessagesApi();
 let opts = {
-  'inlineObject': new SmtpPublicApiOverview.InlineObject() // InlineObject | 
+  'inlineObject': new SmtpComApi.InlineObject() // InlineObject | 
 };
 apiInstance.v4MessagesPost(opts, (error, data, response) => {
   if (error) {

@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.APIKey
+# SmtpComApi.APIKey
 
 ## Properties
 

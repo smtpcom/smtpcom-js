@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.GetDomainDetailsResponseData();
+    instance = new SmtpComApi.GetDomainDetailsResponseData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('GetDomainDetailsResponseData', function() {
     it('should create an instance of GetDomainDetailsResponseData', function() {
       // uncomment below and update the code to test GetDomainDetailsResponseData
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsResponseData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.GetDomainDetailsResponseData);
+      //var instane = new SmtpComApi.GetDomainDetailsResponseData();
+      //expect(instance).to.be.a(SmtpComApi.GetDomainDetailsResponseData);
     });
 
     it('should have the property domainName (base name: "domain_name")', function() {
       // uncomment below and update the code to test the property domainName
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsResponseData();
+      //var instane = new SmtpComApi.GetDomainDetailsResponseData();
       //expect(instance).to.be();
     });
 
     it('should have the property enabled (base name: "enabled")', function() {
       // uncomment below and update the code to test the property enabled
-      //var instane = new SmtpPublicApiOverview.GetDomainDetailsResponseData();
+      //var instane = new SmtpComApi.GetDomainDetailsResponseData();
       //expect(instance).to.be();
     });
 

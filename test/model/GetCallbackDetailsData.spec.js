@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.GetCallbackDetailsData();
+    instance = new SmtpComApi.GetCallbackDetailsData();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,37 +50,37 @@
   describe('GetCallbackDetailsData', function() {
     it('should create an instance of GetCallbackDetailsData', function() {
       // uncomment below and update the code to test GetCallbackDetailsData
-      //var instane = new SmtpPublicApiOverview.GetCallbackDetailsData();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.GetCallbackDetailsData);
+      //var instane = new SmtpComApi.GetCallbackDetailsData();
+      //expect(instance).to.be.a(SmtpComApi.GetCallbackDetailsData);
     });
 
     it('should have the property medium (base name: "medium")', function() {
       // uncomment below and update the code to test the property medium
-      //var instane = new SmtpPublicApiOverview.GetCallbackDetailsData();
+      //var instane = new SmtpComApi.GetCallbackDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property event (base name: "event")', function() {
       // uncomment below and update the code to test the property event
-      //var instane = new SmtpPublicApiOverview.GetCallbackDetailsData();
+      //var instane = new SmtpComApi.GetCallbackDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property channel (base name: "channel")', function() {
       // uncomment below and update the code to test the property channel
-      //var instane = new SmtpPublicApiOverview.GetCallbackDetailsData();
+      //var instane = new SmtpComApi.GetCallbackDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property address (base name: "address")', function() {
       // uncomment below and update the code to test the property address
-      //var instane = new SmtpPublicApiOverview.GetCallbackDetailsData();
+      //var instane = new SmtpComApi.GetCallbackDetailsData();
       //expect(instance).to.be();
     });
 
     it('should have the property awsData (base name: "aws_data")', function() {
       // uncomment below and update the code to test the property awsData
-      //var instane = new SmtpPublicApiOverview.GetCallbackDetailsData();
+      //var instane = new SmtpComApi.GetCallbackDetailsData();
       //expect(instance).to.be();
     });
 

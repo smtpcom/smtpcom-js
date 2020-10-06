@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.InvalidKeyData
+# SmtpComApi.InvalidKeyData
 
 ## Properties
 

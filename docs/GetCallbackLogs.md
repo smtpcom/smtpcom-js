@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.GetCallbackLogs
+# SmtpComApi.GetCallbackLogs
 
 ## Properties
 

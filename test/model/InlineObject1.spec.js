@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.InlineObject1();
+    instance = new SmtpComApi.InlineObject1();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('InlineObject1', function() {
     it('should create an instance of InlineObject1', function() {
       // uncomment below and update the code to test InlineObject1
-      //var instane = new SmtpPublicApiOverview.InlineObject1();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.InlineObject1);
+      //var instane = new SmtpComApi.InlineObject1();
+      //expect(instance).to.be.a(SmtpComApi.InlineObject1);
     });
 
     it('should have the property mime (base name: "mime")', function() {
       // uncomment below and update the code to test the property mime
-      //var instane = new SmtpPublicApiOverview.InlineObject1();
+      //var instane = new SmtpComApi.InlineObject1();
       //expect(instance).to.be();
     });
 
     it('should have the property channel (base name: "channel")', function() {
       // uncomment below and update the code to test the property channel
-      //var instane = new SmtpPublicApiOverview.InlineObject1();
+      //var instane = new SmtpComApi.InlineObject1();
       //expect(instance).to.be();
     });
 
     it('should have the property recipients (base name: "recipients")', function() {
       // uncomment below and update the code to test the property recipients
-      //var instane = new SmtpPublicApiOverview.InlineObject1();
+      //var instane = new SmtpComApi.InlineObject1();
       //expect(instance).to.be();
     });
 
     it('should have the property originator (base name: "originator")', function() {
       // uncomment below and update the code to test the property originator
-      //var instane = new SmtpPublicApiOverview.InlineObject1();
+      //var instane = new SmtpComApi.InlineObject1();
       //expect(instance).to.be();
     });
 

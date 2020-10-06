@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.AccountApi
+# SmtpComApi.AccountApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -18,8 +18,8 @@ Update Account Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -35,7 +35,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.AccountApi();
+let apiInstance = new SmtpComApi.AccountApi();
 let opts = {
   'firstName': "firstName_example", // String | First name of account owner
   'lastName': "lastName_example", // String | Last name of account owner
@@ -96,8 +96,8 @@ Get Account Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -113,7 +113,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.AccountApi();
+let apiInstance = new SmtpComApi.AccountApi();
 apiInstance.v4AccountGet((error, data, response) => {
   if (error) {
     console.error(error);

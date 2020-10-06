@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.MessagesResponseDataAbuse();
+    instance = new SmtpComApi.MessagesResponseDataAbuse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('MessagesResponseDataAbuse', function() {
     it('should create an instance of MessagesResponseDataAbuse', function() {
       // uncomment below and update the code to test MessagesResponseDataAbuse
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataAbuse();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.MessagesResponseDataAbuse);
+      //var instane = new SmtpComApi.MessagesResponseDataAbuse();
+      //expect(instance).to.be.a(SmtpComApi.MessagesResponseDataAbuse);
     });
 
     it('should have the property complaints (base name: "complaints")', function() {
       // uncomment below and update the code to test the property complaints
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataAbuse();
+      //var instane = new SmtpComApi.MessagesResponseDataAbuse();
       //expect(instance).to.be();
     });
 

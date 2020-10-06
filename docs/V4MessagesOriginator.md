@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.V4MessagesOriginator
+# SmtpComApi.V4MessagesOriginator
 
 ## Properties
 

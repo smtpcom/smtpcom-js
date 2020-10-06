@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.ReportsApi
+# SmtpComApi.ReportsApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -22,8 +22,8 @@ Get All Reports
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -39,7 +39,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ReportsApi();
+let apiInstance = new SmtpComApi.ReportsApi();
 apiInstance.v4ReportsGet((error, data, response) => {
   if (error) {
     console.error(error);
@@ -76,8 +76,8 @@ Create On-Demand Report
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -93,7 +93,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ReportsApi();
+let apiInstance = new SmtpComApi.ReportsApi();
 let start = 56; // Number | Start date/time of the report in RFC 2822 or UNIX epoch format
 let opts = {
   'channel': "channel_example", // String | Name of the channel for which a given report has been defined
@@ -150,8 +150,8 @@ Create Periodic Report
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -167,7 +167,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ReportsApi();
+let apiInstance = new SmtpComApi.ReportsApi();
 let frequency = "frequency_example"; // String | Report frequency – one of:   * daily - every day at a specified hour   * weekly  - Mondays at a specified hour   * monthly - 1st day of the month at a specified hour 
 let reportTime = 56; // Number | The hour at which the report should be sent. Value values range from 0 to 23
 let opts = {
@@ -226,8 +226,8 @@ Delete a Periodic Report
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -243,7 +243,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ReportsApi();
+let apiInstance = new SmtpComApi.ReportsApi();
 let reportId = "reportId_example"; // String | Id of a given report
 apiInstance.v4ReportsPeriodicReportIdDelete(reportId, (error, data, response) => {
   if (error) {
@@ -284,8 +284,8 @@ Update Periodic Report
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -301,7 +301,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ReportsApi();
+let apiInstance = new SmtpComApi.ReportsApi();
 let reportId = "reportId_example"; // String | Id of the report to be updated
 let frequency = "frequency_example"; // String | Report frequency – one of:  * daily - every day at a specified hour  * weekly  - Mondays at a specified hour  * monthly - first day of the month at a specified hour. 
 let reportTime = 56; // Number | The hour at which the report should be sent. Value values range from 0 to 23
@@ -352,8 +352,8 @@ Get Report Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -369,7 +369,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ReportsApi();
+let apiInstance = new SmtpComApi.ReportsApi();
 let reportId = "reportId_example"; // String | ID of a given report
 apiInstance.v4ReportsReportIdGet(reportId, (error, data, response) => {
   if (error) {

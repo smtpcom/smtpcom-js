@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.InvalidKey();
+    instance = new SmtpComApi.InvalidKey();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('InvalidKey', function() {
     it('should create an instance of InvalidKey', function() {
       // uncomment below and update the code to test InvalidKey
-      //var instane = new SmtpPublicApiOverview.InvalidKey();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.InvalidKey);
+      //var instane = new SmtpComApi.InvalidKey();
+      //expect(instance).to.be.a(SmtpComApi.InvalidKey);
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new SmtpPublicApiOverview.InvalidKey();
+      //var instane = new SmtpComApi.InvalidKey();
       //expect(instance).to.be();
     });
 
     it('should have the property data (base name: "data")', function() {
       // uncomment below and update the code to test the property data
-      //var instane = new SmtpPublicApiOverview.InvalidKey();
+      //var instane = new SmtpComApi.InvalidKey();
       //expect(instance).to.be();
     });
 

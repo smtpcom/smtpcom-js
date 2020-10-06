@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.GetCallbackLogsDataItems();
+    instance = new SmtpComApi.GetCallbackLogsDataItems();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,25 +50,25 @@
   describe('GetCallbackLogsDataItems', function() {
     it('should create an instance of GetCallbackLogsDataItems', function() {
       // uncomment below and update the code to test GetCallbackLogsDataItems
-      //var instane = new SmtpPublicApiOverview.GetCallbackLogsDataItems();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.GetCallbackLogsDataItems);
+      //var instane = new SmtpComApi.GetCallbackLogsDataItems();
+      //expect(instance).to.be.a(SmtpComApi.GetCallbackLogsDataItems);
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new SmtpPublicApiOverview.GetCallbackLogsDataItems();
+      //var instane = new SmtpComApi.GetCallbackLogsDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property msg (base name: "msg")', function() {
       // uncomment below and update the code to test the property msg
-      //var instane = new SmtpPublicApiOverview.GetCallbackLogsDataItems();
+      //var instane = new SmtpComApi.GetCallbackLogsDataItems();
       //expect(instance).to.be();
     });
 
     it('should have the property time (base name: "time")', function() {
       // uncomment below and update the code to test the property time
-      //var instane = new SmtpPublicApiOverview.GetCallbackLogsDataItems();
+      //var instane = new SmtpComApi.GetCallbackLogsDataItems();
       //expect(instance).to.be();
     });
 

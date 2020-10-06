@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.APIKey();
+    instance = new SmtpComApi.APIKey();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,31 +50,31 @@
   describe('APIKey', function() {
     it('should create an instance of APIKey', function() {
       // uncomment below and update the code to test APIKey
-      //var instane = new SmtpPublicApiOverview.APIKey();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.APIKey);
+      //var instane = new SmtpComApi.APIKey();
+      //expect(instance).to.be.a(SmtpComApi.APIKey);
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new SmtpPublicApiOverview.APIKey();
+      //var instane = new SmtpComApi.APIKey();
       //expect(instance).to.be();
     });
 
     it('should have the property descrption (base name: "descrption")', function() {
       // uncomment below and update the code to test the property descrption
-      //var instane = new SmtpPublicApiOverview.APIKey();
+      //var instane = new SmtpComApi.APIKey();
       //expect(instance).to.be();
     });
 
     it('should have the property key (base name: "key")', function() {
       // uncomment below and update the code to test the property key
-      //var instane = new SmtpPublicApiOverview.APIKey();
+      //var instane = new SmtpComApi.APIKey();
       //expect(instance).to.be();
     });
 
     it('should have the property dateCreated (base name: "date_created")', function() {
       // uncomment below and update the code to test the property dateCreated
-      //var instane = new SmtpPublicApiOverview.APIKey();
+      //var instane = new SmtpComApi.APIKey();
       //expect(instance).to.be();
     });
 

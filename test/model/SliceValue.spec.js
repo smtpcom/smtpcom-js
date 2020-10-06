@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,9 +20,9 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
@@ -49,8 +49,8 @@
   describe('SliceValue', function() {
     it('should create an instance of SliceValue', function() {
       // uncomment below and update the code to test SliceValue
-      //var instane = new SmtpPublicApiOverview.SliceValue();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.SliceValue);
+      //var instane = new SmtpComApi.SliceValue();
+      //expect(instance).to.be.a(SmtpComApi.SliceValue);
     });
 
   });

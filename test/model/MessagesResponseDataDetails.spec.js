@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.MessagesResponseDataDetails();
+    instance = new SmtpComApi.MessagesResponseDataDetails();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,13 +50,13 @@
   describe('MessagesResponseDataDetails', function() {
     it('should create an instance of MessagesResponseDataDetails', function() {
       // uncomment below and update the code to test MessagesResponseDataDetails
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetails();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.MessagesResponseDataDetails);
+      //var instane = new SmtpComApi.MessagesResponseDataDetails();
+      //expect(instance).to.be.a(SmtpComApi.MessagesResponseDataDetails);
     });
 
     it('should have the property delivery (base name: "delivery")', function() {
       // uncomment below and update the code to test the property delivery
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetails();
+      //var instane = new SmtpComApi.MessagesResponseDataDetails();
       //expect(instance).to.be();
     });
 

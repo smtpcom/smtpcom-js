@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.ReportsDataPeriodic
+# SmtpComApi.ReportsDataPeriodic
 
 ## Properties
 

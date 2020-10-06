@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.ChannelsApi
+# SmtpComApi.ChannelsApi
 
 All URIs are relative to *https://api.smtp.com*
 
@@ -23,8 +23,8 @@ Get Channel Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -40,7 +40,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ChannelsApi();
+let apiInstance = new SmtpComApi.ChannelsApi();
 let name = "name_example"; // String | Name of the channel (sender)
 apiInstance.getSender(name, (error, data, response) => {
   if (error) {
@@ -83,8 +83,8 @@ Get All Channels
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -100,7 +100,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ChannelsApi();
+let apiInstance = new SmtpComApi.ChannelsApi();
 apiInstance.v4ChannelsGet((error, data, response) => {
   if (error) {
     console.error(error);
@@ -139,8 +139,8 @@ Delete a Channel
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -156,7 +156,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ChannelsApi();
+let apiInstance = new SmtpComApi.ChannelsApi();
 let name = "name_example"; // String | Name of the channel (sender)
 apiInstance.v4ChannelsNameDelete(name, (error, data, response) => {
   if (error) {
@@ -197,8 +197,8 @@ Update Channel Details
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -214,7 +214,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ChannelsApi();
+let apiInstance = new SmtpComApi.ChannelsApi();
 let name = "name_example"; // String | Name of the channel (sender)
 let opts = {
   'smtpUsername': "smtpUsername_example", // String | Username for the channel
@@ -263,8 +263,8 @@ Create a New Channel
 ### Example
 
 ```javascript
-import SmtpPublicApiOverview from 'smtp_public_api_overview';
-let defaultClient = SmtpPublicApiOverview.ApiClient.instance;
+import SmtpComApi from 'smtpcom';
+let defaultClient = SmtpComApi.ApiClient.instance;
 // Configure API key authorization: apiID
 let apiID = defaultClient.authentications['apiID'];
 apiID.apiKey = 'YOUR API KEY';
@@ -280,7 +280,7 @@ let basicAuth = defaultClient.authentications['basicAuth'];
 basicAuth.username = 'YOUR USERNAME';
 basicAuth.password = 'YOUR PASSWORD';
 
-let apiInstance = new SmtpPublicApiOverview.ChannelsApi();
+let apiInstance = new SmtpComApi.ChannelsApi();
 let name = "name_example"; // String | Name of the channel (sender)
 let smtpUsername = "smtpUsername_example"; // String | Username for the channel
 let smtpPassword = "smtpPassword_example"; // String | Password for the channel

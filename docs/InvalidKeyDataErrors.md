@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.InvalidKeyDataErrors
+# SmtpComApi.InvalidKeyDataErrors
 
 ## Properties
 

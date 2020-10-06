@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.V4MessagesMimeRecipients
+# SmtpComApi.V4MessagesMimeRecipients
 
 ## Properties
 

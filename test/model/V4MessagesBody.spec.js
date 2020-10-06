@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.V4MessagesBody();
+    instance = new SmtpComApi.V4MessagesBody();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,19 +50,19 @@
   describe('V4MessagesBody', function() {
     it('should create an instance of V4MessagesBody', function() {
       // uncomment below and update the code to test V4MessagesBody
-      //var instane = new SmtpPublicApiOverview.V4MessagesBody();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.V4MessagesBody);
+      //var instane = new SmtpComApi.V4MessagesBody();
+      //expect(instance).to.be.a(SmtpComApi.V4MessagesBody);
     });
 
     it('should have the property parts (base name: "parts")', function() {
       // uncomment below and update the code to test the property parts
-      //var instane = new SmtpPublicApiOverview.V4MessagesBody();
+      //var instane = new SmtpComApi.V4MessagesBody();
       //expect(instance).to.be();
     });
 
     it('should have the property attachments (base name: "attachments")', function() {
       // uncomment below and update the code to test the property attachments
-      //var instane = new SmtpPublicApiOverview.V4MessagesBody();
+      //var instane = new SmtpComApi.V4MessagesBody();
       //expect(instance).to.be();
     });
 

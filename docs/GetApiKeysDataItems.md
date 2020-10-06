@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.GetApiKeysDataItems
+# SmtpComApi.GetApiKeysDataItems
 
 ## Properties
 

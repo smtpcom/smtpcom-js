@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.ChannelsData
+# SmtpComApi.ChannelsData
 
 ## Properties
 

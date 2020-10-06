@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.GetAlertDetailsData
+# SmtpComApi.GetAlertDetailsData
 
 ## Properties
 

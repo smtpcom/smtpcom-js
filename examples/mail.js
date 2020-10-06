@@ -1,4 +1,4 @@
-var _smtp_public_api_overview = _interopRequireDefault(require("smtp_public_api_overview"));
+var _smtpcom = _interopRequireDefault(require("smtpcom"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
@@ -7,14 +7,14 @@ var testApiKey = "your_api_key";
 var testSender = "your_sender_label";
 
 
-var defaultClient = _smtp_public_api_overview.ApiClient.instance;
+var defaultClient = _smtpcom.ApiClient.instance;
 
 var apiKey = defaultClient.authentications['apiKey'];
 apiKey.apiKey = testApiKey;
 
-var apiInstance = new _smtp_public_api_overview.MessagesApi();
+var apiInstance = new _smtpcom.MessagesApi();
 var opts = {
-  'inlineObject': new _smtp_public_api_overview.InlineObject()
+  'inlineObject': new _smtpcom.InlineObject()
 };
 var body = opts['inlineObject'];
 body.channel = testSender; // Sender label

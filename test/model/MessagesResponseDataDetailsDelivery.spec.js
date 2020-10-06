@@ -1,6 +1,6 @@
 /**
- * SMTP Public API overview
- * SMTP.com Public API v4
+ * SMTP.com API
+ * SMTP.com API V4
  *
  * The version of the OpenAPI document: 4.0.0
  * Contact: support@smtp.com
@@ -20,15 +20,15 @@
     factory(require('expect.js'), require(process.cwd()+'/src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.SmtpPublicApiOverview);
+    factory(root.expect, root.SmtpComApi);
   }
-}(this, function(expect, SmtpPublicApiOverview) {
+}(this, function(expect, SmtpComApi) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery();
+    instance = new SmtpComApi.MessagesResponseDataDetailsDelivery();
   });
 
   var getProperty = function(object, getter, property) {
@@ -50,37 +50,37 @@
   describe('MessagesResponseDataDetailsDelivery', function() {
     it('should create an instance of MessagesResponseDataDetailsDelivery', function() {
       // uncomment below and update the code to test MessagesResponseDataDetailsDelivery
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery();
-      //expect(instance).to.be.a(SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery);
+      //var instane = new SmtpComApi.MessagesResponseDataDetailsDelivery();
+      //expect(instance).to.be.a(SmtpComApi.MessagesResponseDataDetailsDelivery);
     });
 
     it('should have the property finished (base name: "finished")', function() {
       // uncomment below and update the code to test the property finished
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery();
+      //var instane = new SmtpComApi.MessagesResponseDataDetailsDelivery();
       //expect(instance).to.be();
     });
 
     it('should have the property retries (base name: "retries")', function() {
       // uncomment below and update the code to test the property retries
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery();
+      //var instane = new SmtpComApi.MessagesResponseDataDetailsDelivery();
       //expect(instance).to.be();
     });
 
     it('should have the property event (base name: "event")', function() {
       // uncomment below and update the code to test the property event
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery();
+      //var instane = new SmtpComApi.MessagesResponseDataDetailsDelivery();
       //expect(instance).to.be();
     });
 
     it('should have the property code (base name: "code")', function() {
       // uncomment below and update the code to test the property code
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery();
+      //var instane = new SmtpComApi.MessagesResponseDataDetailsDelivery();
       //expect(instance).to.be();
     });
 
     it('should have the property status (base name: "status")', function() {
       // uncomment below and update the code to test the property status
-      //var instane = new SmtpPublicApiOverview.MessagesResponseDataDetailsDelivery();
+      //var instane = new SmtpComApi.MessagesResponseDataDetailsDelivery();
       //expect(instance).to.be();
     });
 

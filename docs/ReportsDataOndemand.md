@@ -1,4 +1,4 @@
-# SmtpPublicApiOverview.ReportsDataOndemand
+# SmtpComApi.ReportsDataOndemand
 
 ## Properties
 
