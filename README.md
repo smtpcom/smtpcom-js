@@ -8,7 +8,7 @@ JavaScript client for SMTP.com API V4
 ## Installation
 
 ```shell
-npm install smtpcom 
+npm install @smtpcom/smtpcom 
 ```
 
 ## Getting Started
