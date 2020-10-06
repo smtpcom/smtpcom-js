@@ -2,7 +2,7 @@
   "name": "@smtpcom/smtpcom",
   "version": "4.0.0",
   "description": "SMTP.com API V4 client",
-  "license": "Apache 2.0",
+  "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
