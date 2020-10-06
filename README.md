@@ -1,3 +1,6 @@
+![Tests](https://github.com/smtpcom/smtpcom-js/workflows/Tests/badge.svg)
+[![codecov](https://codecov.io/gh/smtpcom/smtpcom-js/branch/master/graph/badge.svg?token=G0JCKAWYOZ)](https://codecov.io/gh/smtpcom/smtpcom-js)
+
 # SMTP.com API
 
 JavaScript client for SMTP.com API V4
